@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.service {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #ecf0f6;
+  color: white;
+  padding: 100px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative; /* Allows absolute positioning of the button */
+  height: 1000px;
+}
+
+.add-startup-button {
+  position: absolute; /* Position it absolutely */
+  top: 250px; /* Adjust the vertical position as needed */
+  right: 20px; /* Align the button to the right */
+  background-color: #ff9900;
+  border-color: #ff9900;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.donateButton {
+  border-color: #ff9900;
+  background-color: #f4f4f4;
+  color: #ff9900;
+}
+
+.donateButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+  }
+  
+  .coin-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px; /* Adjust spacing between image and text */
+  }

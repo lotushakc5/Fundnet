@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins' , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .background {
+    background-image: url('/public/images/background2.jpg');
+    height: 400px; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw; /* Use viewport width */
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  .content  {
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 40px;
+  }
+  .search-bar {
+    padding: 5px 10px;
+    margin-right: 20px;
+    border: 1px solid #ac2b2b;
+    border-radius: 4px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .nav a:hover {
+    color: #007bff;
+  }
+
+  /* src/components/home/home.css */
+.content {
+    text-align: center;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #e68a00;
+  }
+  
+  

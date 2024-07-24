@@ -1,0 +1,39 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav items */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Padding around the header */
+    background-color: #f8f8f8; /* Background color of the header */
+    border-bottom: 1px solid #ddd; /* Border below the header */
+  }
+  
+  .logo img {
+    height: 60px; /* Adjust logo height as needed */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .search-bar {
+    padding: 5px 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+    border: 1px solid #ac2b2b;
+    border-radius: 4px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin-left: 20px; /* Space between search bar and link */
+  }
+  
+  .nav a:hover {
+    color: #007bff; /* Color change on hover */
+  }
+  
